@@ -1,0 +1,7 @@
+services:
+  mediamtx:
+    image: "bluenviron/mediamtx:latest"
+    volumes:
+      - ./mediamtx.yml:/mediamtx.yml
+      - ./recordings:/recordings
+    network_mode: "host"
