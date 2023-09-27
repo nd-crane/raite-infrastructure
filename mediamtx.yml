@@ -304,46 +304,43 @@ paths:
     # Command to run when a client stops reading.
     # Environment variables are the same of runOnRead.
     runOnUnread:
-  # camera-01:
-  #   source: rtsp://192.168.1.232
-  # camera-02:
-  #   source: rtsp://192.168.1.229
-  # camera-03:
-  #   source: rtsp://192.168.1.230
-  # camera-04:
-  #   source: rtsp://192.168.1.223
-  # camera-05:
-  #   source: rtsp://192.168.1.233
-  # camera-06:
-  #   source: rtsp://192.168.1.227
-  # camera-07:
-  #   source: rtsp://192.168.1.226
-  # camera-08:
-  #   source: rtsp://192.168.1.231
-  # camera-09:
-  #   source: rtsp://192.168.1.228
-  # camera-10:
-  #   source: rtsp://192.168.1.234
-  # camera-11:
-  #   source: rtsp://192.168.1.235
-  # camera-12:
-  #   source: rtsp://192.168.1.236
-  # camera-13:
-  #   source: rtsp://192.168.1.225
-  # camera-14:
-  #   source: rtsp://192.168.1.224
-  # camera-15:
-  #   source: rtsp://192.168.1.222
-  # camera-16:
-  #   source: rtsp://192.168.1.221
-  # camera-17:
-  #   source: rtsp://192.168.1.237
-  # camera-18:
-  #   source: rtsp://192.168.1.238
-  # # camera-19:
-  # #   source: rtsp://192.168.1.239
-  # camera-20:
-  #   source: rtsp://192.168.1.240
-  blue-team:
-    source: redirect
-    sourceRedirect: rtsp://localhost:8554/mystream
+  camera-01:
+    source: rtsp://admin:CyberU$er@192.168.1.232/Src/MediaInput/h264/stream_1/ch
+  camera-02:
+    source: rtsp://admin:CyberU$er@192.168.1.229/Src/MediaInput/h264/stream_1/ch
+  camera-03:
+    source: rtsp://admin:CyberU$er@192.168.1.230/Src/MediaInput/h264/stream_1/ch
+  camera-04:
+    source: rtsp://admin:CyberU$er@192.168.1.223/Src/MediaInput/h264/stream_1/ch
+  camera-05:
+    source: rtsp://admin:CyberU$er@192.168.1.233/Src/MediaInput/h264/stream_1/ch
+  camera-06:
+    source: rtsp://admin:CyberU$er@192.168.1.227/Src/MediaInput/h264/stream_1/ch
+  camera-07:
+    source: rtsp://admin:CyberU$er@192.168.1.226/Src/MediaInput/h264/stream_1/ch
+  camera-08:
+    source: rtsp://admin:CyberU$er@192.168.1.231/Src/MediaInput/h264/stream_1/ch
+  camera-09:
+    source: rtsp://admin:CyberU$er@192.168.1.228/Src/MediaInput/h264/stream_1/ch
+  camera-10:
+    source: rtsp://admin:CyberU$er@192.168.1.234/Src/MediaInput/h264/stream_1/ch
+  camera-11:
+    source: rtsp://admin:CyberU$er@192.168.1.235/Src/MediaInput/h264/stream_1/ch
+  camera-12:
+    source: rtsp://admin:CyberU$er@192.168.1.236/Src/MediaInput/h264/stream_1/ch
+  camera-13:
+    source: rtsp://admin:CyberU$er@192.168.1.225/Src/MediaInput/h264/stream_1/ch
+  camera-14:
+    source: rtsp://admin:CyberU$er@192.168.1.224/Src/MediaInput/h264/stream_1/ch
+  camera-15:
+    source: rtsp://admin:CyberU$er@192.168.1.222/Src/MediaInput/h264/stream_1/ch
+  camera-16:
+    source: rtsp://admin:CyberU$er@192.168.1.221/Src/MediaInput/h264/stream_1/ch
+  camera-17:
+    source: rtsp://admin:CyberU$er@192.168.1.237/Src/MediaInput/h264/stream_1/ch
+  camera-18:
+    source: rtsp://admin:CyberU$er@192.168.1.238/Src/MediaInput/h264/stream_1/ch
+  camera-19:
+    source: rtsp://admin:CyberU$er@192.168.1.239/Src/MediaInput/h264/stream_1/ch
+  camera-20:
+    source: rtsp://admin:CyberU$er@192.168.1.240/Src/MediaInput/h264/stream_1/ch
